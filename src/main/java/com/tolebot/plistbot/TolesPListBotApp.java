@@ -11,7 +11,7 @@ public class TolesPListBotApp {
     @Bean
     public App initSlackApp() {
         App app = new App();
-        app.command("/hello everyone", (req, ctx) -> ctx.ack("Hi there!"));
+        app.command("/hello everyone, let's play music", (req, ctx) -> ctx.ack("Hi there!"));
         return app;
     }
 }
