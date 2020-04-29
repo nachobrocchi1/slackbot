@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tolebot</groupId>
-	<artifactId>tolelistbot</artifactId>
+	<artifactId>plistbot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Tole's list bot</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Tole's PList Bot</name>
+	<description>Bot </description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -55,6 +55,20 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+<<<<<<< HEAD
+=======
+		<dependency>
+			<groupId>com.slack.api</groupId>
+			<artifactId>bolt</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.slack.api</groupId>
+			<artifactId>bolt-servlet</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+
+>>>>>>> 076875b... asd
 	</dependencies>
 
 	<build>
